@@ -3,10 +3,11 @@ require 'formula'
 class With < Formula
   homepage 'https://github.com/ketchup/with'
   url 'https://github.com/ketchup/with/zipball/master'
-  sha1 '93b5c2fc60981f1a8cd92a05072598e461f85e32'
+  sha1 '97723cce3a85b9d0cb04e1c0b84e103170e545e2'
   version '0.0.0'
 
   def install
-    bin.install 'with' => 'with'
+    bin.install 'bin/with' => 'with'
+    prefix.install Dir["environment", "template"]
   end
 end
