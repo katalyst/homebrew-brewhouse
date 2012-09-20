@@ -7,10 +7,10 @@ class Kick < Formula
   sha1 'c86fc27085b5b29c0c8687de7d126907a156ba1b'
 
   FLASH_VERSIONS = [
-    { :name => "Flash CS4", :directory => "#{ENV['HOME']}/Library/Application Support/Adobe/Flash CS4/en/Configuration/Commands" },
-    { :name => "Flash CS5", :directory => "#{ENV['HOME']}/Library/Application Support/Adobe/Flash CS5/en_US/Configuration/Commands" },
-    { :name => "Flash CS5.5", :directory => "#{ENV['HOME']}/Library/Application Support/Adobe/Flash CS5.5/en_US/Configuration/Commands" },
-    { :name => "Flash CS6", :directory => "#{ENV['HOME']}/Library/Application Support/Adobe/Flash CS6/en_US/Configuration/Commands" }
+    { :name => "Flash CS4", :directory => "#{ENV['HOME']}/Library/Application\\ Support/Adobe/Flash\\ CS4/en/Configuration/Commands" },
+    { :name => "Flash CS5", :directory => "#{ENV['HOME']}/Library/Application\\ Support/Adobe/Flash\\ CS5/en_US/Configuration/Commands" },
+    { :name => "Flash CS5.5", :directory => "#{ENV['HOME']}/Library/Application\\ Support/Adobe/Flash\\ CS5.5/en_US/Configuration/Commands" },
+    { :name => "Flash CS6", :directory => "#{ENV['HOME']}/Library/Application\\ Support/Adobe/Flash\\ CS6/en_US/Configuration/Commands" }
   ]
 
   def test
