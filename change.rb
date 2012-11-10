@@ -1,9 +1,10 @@
 require 'formula'
 
 class Change < Formula
-  url 'https://github.com/ketchup/change'
-  url 'https://github.com/ketchup/change/zipball/v1.0.0'
-  sha1 'a45eb5a3c78fdf6dd75ce72cfa67e4f8096fff7f'
+
+  homepage 'https://github.com/ketchup/change'
+  url 'https://github.com/ketchup/change/zipball/v1.1.0'
+  sha1 '9cd85bf812c5c0b76067af0db70b53ac67a8d069'
 
   def test
     system "change"
@@ -13,4 +14,5 @@ class Change < Formula
     bin.install 'bin/change' => 'change'
     prefix.install Dir["libexec", "share"]
   end
+
 end
