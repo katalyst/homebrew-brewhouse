@@ -12,7 +12,7 @@ class Change < Formula
 
   def install
     bin.install 'bin/change' => 'change'
-    prefix.install Dir["libexec", "share"]
+    prefix.install Dir["completions", "libexec", "share", "VERSION"]
   end
 
 end
