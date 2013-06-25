@@ -12,7 +12,9 @@ class Change < Formula
 
   def install
     bin.install 'bin/change' => 'change'
-    prefix.install Dir["completions", "libexec", "share", "VERSION"]
+    prefix.install Dir["libexec", "share", "VERSION"]
+    bash_completion.install "completions/change.bash"
+    zsh_completion.install 'completions/change.zsh' => '_change'
   end
 
 end
