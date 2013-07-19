@@ -1,15 +1,15 @@
-Ketchup Brewhouse
-=================
+Katalyst Brewhouse
+==================
 
 How do I install these formulae?
 --------------------------------
 
-Just `brew tap ketchup/brewhouse` and then `brew install <formula>`.
+Just `brew tap katalyst/brewhouse` and then `brew install <formula>`.
 
-If the formula conflicts with one from mxcl/master or another tap, you can `brew install ketchup/brewhouse/<formula>`.
+If the formula conflicts with one from mxcl/master or another tap, you can `brew install katalyst/brewhouse/<formula>`.
 
 You can also install via URL:
 
 ```
-brew install https://raw.github.com/ketchup/homebrew-brewhouse/master/<formula>.rb
+brew install https://raw.github.com/katalyst/homebrew-brewhouse/master/<formula>.rb
 ```
